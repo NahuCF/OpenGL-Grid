@@ -46,7 +46,7 @@ int main(void)
     if (glewInit() != GLEW_OK)
         std::cout << "GLEW::FAIL" << std::endl;
 
-    Shader FirstShader("C:/Users/nahue/Desktop/OpenGL-Grid/Template/src/shaders/shader.vs", "C:/Users/nahue/Desktop/OpenGL-Grid/Template/src/shaders/shader.fs");
+    Shader FirstShader("shader.vs_Here!", "shader.fs_Here!");
 
     glEnable(GL_DEPTH_TEST);
     
